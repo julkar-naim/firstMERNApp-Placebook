@@ -1,0 +1,23 @@
+.button {
+    padding: 8px 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: var(--purple);
+    color: var(--white);
+    font-weight: bold;
+    text-transform: uppercase;
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+.button:hover {
+    box-shadow: none;
+}
+
+.delete {
+    background-color: #e30425;
+}
+.disabled {
+    opacity: 0.5;
+    background-color: grey;
+    cursor: no-drop;
+}

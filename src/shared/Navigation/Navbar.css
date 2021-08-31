@@ -1,0 +1,50 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--purple, #d2d2d2);
+}
+.brand {
+    color: var(--white, #d2d2d2);
+    padding: 0 10px;
+}
+.brand a {
+    color: var(--white);
+    font-size: 1rem;
+}
+.brand a h1 {
+    font-weight: 400;
+}
+
+.ham-icon {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.ham-icon span {
+    display: block;
+    width: 50px;
+    height: 5px;
+    border-radius: 2px;
+    background-color: var(--white, #d3d3d3);
+    margin: 5px 5px;
+}
+.main-nav {
+    display: flex;
+}
+.side-nav {
+    z-index: inherit;
+}
+
+@media (min-width: 641px) {
+    .ham-icon {
+        display: none;
+    }
+}
+@media (max-width: 641px) {
+    .main-nav {
+        display: none;
+    }
+}

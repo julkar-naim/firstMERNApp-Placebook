@@ -1,0 +1,35 @@
+.nav-link {
+    display: flex;
+    align-items: center;
+}
+
+.nav-link li {
+    list-style-type: none;
+}
+.nav-link li a {
+    padding: 20px 30px;
+    color: var(--white, #d2d2d2);
+}
+.nav-link li a:hover {
+    background-color: rgba(0, 0, 0, 0.19);
+}
+.active {
+    background-color: rgba(0, 0, 0, 0.19);
+}
+@media (max-width: 641px) {
+    .nav-link {
+        flex-direction: column;
+    }
+    .nav-link li a {
+        height: 20px;
+    }
+    .nav-link li {
+        height: 60px;
+    }
+}
+.logout-button {
+    font-weight: 400;
+    background-color: var(--white);
+    color: var(--purple);
+    width: 95%;
+}

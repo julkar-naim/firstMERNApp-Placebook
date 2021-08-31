@@ -1,0 +1,38 @@
+.place-item {
+    margin: auto;
+    margin-bottom: 20px;
+}
+.place-item__card {
+    margin: auto;
+    width: 90%;
+}
+.place-item__content {
+    padding: 20px;
+}
+
+.place-item__actions button {
+    margin: 0 10px 0 10px;
+}
+
+.place-item__image {
+    width: 100%;
+    height: 40vh;
+    object-fit: cover;
+    border-radius: 10px 10px 0 0;
+}
+.place-item__actions {
+    padding: 10px 10px 40px 10px;
+}
+.separator__action {
+    width: 90%;
+    border-top: 1px solid #d1d1d1;
+}
+.delete-modal {
+    height: 250px;
+}
+
+@media (min-width: 992px) {
+    .place-item__image {
+        height: 58vh;
+    }
+}

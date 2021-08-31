@@ -1,0 +1,13 @@
+
+.card {
+    border-radius: .5rem;
+    box-shadow: 0 6px 15px 0 rgba(0,0,0,0.19);
+    color: var(--black);
+    width: 400px;
+}
+
+@media (max-width: 641px) {
+    .card {
+        width: 95%;
+    }
+}

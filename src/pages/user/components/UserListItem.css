@@ -1,0 +1,28 @@
+
+.user-list-card {
+    width: 400px;
+    height: 150px;
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
+}
+.user-list-card:hover {
+    background-color: var(--purple, #d2d2d2);
+    color: var(--white, #d2d2d2);
+    transition: .3s;
+}
+.ul-avatar {
+    margin-left: 1rem;
+    margin-right: 1.5rem;
+}
+.ul-card-title {
+    font-weight: 400;
+}
+.ul-card-place-counter {
+    font-weight: 400;
+}
+@media (max-width: 641px) {
+    .user-list-card {
+        width: 350px;
+    }
+}

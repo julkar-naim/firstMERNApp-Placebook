@@ -1,0 +1,15 @@
+.place-form {
+    background-color: var(--white);
+    border-radius: 10px;
+    padding: 2rem 0;
+}
+label {
+    display: inline-block;
+}
+.new-place__button {
+    margin: 1rem 1rem 0 1rem;
+    height: 50px;
+    width: 120px;
+    font-size: 1rem;
+    font-weight: 600;
+}

@@ -1,0 +1,18 @@
+.side-drawer {
+    position: fixed;
+    top: 0;
+    width: 60%;
+    height: 100%;
+    background-color: var(--purple-lite, #d3d3d3);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+}
+@media (min-width: 641px) {
+    .side-drawer {
+        display: none;
+    }
+}
